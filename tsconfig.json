@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "amd",
+        "outFile": "./output/index.js",
+        "sourceMap": true
+    },
+    "include": [
+        "./node_modules/phaser/typescript/phaser.comments.d.ts",
+        "./src/**/*.ts"
+    ]
+}
